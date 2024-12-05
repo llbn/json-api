@@ -13,7 +13,7 @@ use function is_string;
 
 class TestCase extends BaseTestCase
 {
-    public const JSON_API_SCHEMA_URL = 'http://jsonapi.org/schema';
+    public const JSON_API_SCHEMA_URL = 'https://raw.githubusercontent.com/json-api/json-api/24feb81de97b2488332addce6e6d7b255bcc4602/_schemas/1.0/schema.json';
 
     public function setUp(): void
     {
